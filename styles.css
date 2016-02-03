@@ -1,6 +1,26 @@
 header{
   width:100%;
   background-image:url(https://source.unsplash.com/random);
+  background-repeat:no-repeat;
+  background-size:cover;
+  height:500px;
+  background-position: top;
+}
+#title{
+  font-size:8em;
+  color:#fff;
+  position:absolute;
+  top:25%;
+  left:25%;
+  margin:0;
+}
+#title span{
+  font-weight:100;
+}
+div.overlay{
+  background-color:#549431;
+  height:500px;
+  opacity:.8;
 }
 .col-2{
   width:50%;
